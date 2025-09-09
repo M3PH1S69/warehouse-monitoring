@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Warehouse Monitoring System - Sistem Monitoring Gudang" />
+    <meta name="keywords" content="warehouse, monitoring, inventory, gudang, inventori" />
+    <title>Warehouse Monitoring System</title>
+    <script>
+      // Initial theme setup to avoid FOUC (Flash of Unstyled Content)
+      if (localStorage.getItem('theme') === 'dark' || (!'theme' in localStorage && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    </script>
+  </head>
+  <body class="bg-gray-100 dark:bg-gray-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

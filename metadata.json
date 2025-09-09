@@ -1,0 +1,5 @@
+{
+  "name": "Warehouse Monitoring",
+  "description": "Aplikasi web untuk mengelola inventaris perangkat jaringan gudang, memantau stok masuk dan keluar, mengelola pengguna, dan menghasilkan laporan. Dibuat dengan React dan Tailwind CSS.",
+  "requestFramePermissions": []
+}

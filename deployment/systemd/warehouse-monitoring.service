@@ -1,0 +1,22 @@
+[Unit]
+Description=Warehouse Monitoring
+After=network.target mysql.service nginx.service php8.3-fpm.service
+Requires=mysql.service
+Wants=nginx.service php8.3-fpm.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/true
+RemainAfterExit=yes
+User=www-data
+Group=www-data
+
+# Health check script
+#ExecStartPost=/opt/warehouse-monitoring/deployment/scripts/health-check.sh
+
+# Restart policy
+#Restart=on-failure
+#RestartSec=10
+
+#[Install]
+#WantedBy=multi-user.target
