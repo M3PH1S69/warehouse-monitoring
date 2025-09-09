@@ -98,9 +98,8 @@ CREATE TABLE `transactions` (
 
 -- Dumping data for table `users`
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `role`) VALUES
-(1, 'aty', 'adhitya.gemeleonard@lintasarta.co.id', MD5('GudangGaram12'), 'administrator'),
-(2, 'view', 'view@warehouse.com', MD5('P4ssword'), 'view_only'),
-(3, 'mfc', 'fachri.wardana@lintasarta.co.id', MD5('P4ssword'), 'administrator');
+(1, 'administrator', 'admin@warehouse.com', MD5('admin123'), 'administrator'),
+(2, 'view', 'view@warehouse.com', MD5('staff123'), 'view_only');
 
 -- Dumping data for table `categories`
 INSERT INTO `categories` (`id`, `name`) VALUES
