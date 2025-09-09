@@ -36,7 +36,7 @@ A modern web-based warehouse management system built with React, TypeScript, and
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/M3PH1S69/warehouse-monitoring.git
    cd warehouse-monitoring
    ```
 
@@ -251,7 +251,7 @@ src/
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## 🤝 Contributing
 
@@ -264,12 +264,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 📞 Support
 
 For support and questions:
-- Create an issue in the repository
+- Email: adhityageme@gmail.com
 - Check the documentation
 - Review the troubleshooting section
 
 ---
 
-**Version**: 2.0.0  
+**Version**: 2.3.0  
 **Last Updated**: September 2025  
 **Status**: Production Ready ✅
