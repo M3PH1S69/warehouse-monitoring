@@ -9,10 +9,10 @@ class Database {
 
     public function __construct() {
         // Load configuration from environment or default values
-        $this->host = $_ENV['DB_HOST'] ?? 'localhost';
-        $this->db_name = $_ENV['DB_NAME'] ?? 'warehouse_db';
-        $this->username = $_ENV['DB_USER'] ?? 'aty';
-        $this->password = $_ENV['DB_PASS'] ?? 'ServerATY@12';
+        $this->host = $_ENV['DB_HOST'] ?? 'your_host_db';
+        $this->db_name = $_ENV['DB_NAME'] ?? 'your_db';
+        $this->username = $_ENV['DB_USER'] ?? 'your_db_username';
+        $this->password = $_ENV['DB_PASS'] ?? 'your_db_password';
         
         // PDO options for security and performance
         $this->options = [
